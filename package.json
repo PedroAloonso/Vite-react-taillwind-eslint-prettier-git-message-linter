@@ -1,6 +1,6 @@
 {
     "name": "react-tailwind-sass-eslint-husk-prettier",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "description": "Vite template with React 19, Typescript, TailWind, Prettier, Prettier for TaillWind Eslint, Git Commit Message Linter",
     "author": {
         "name": "Pedro Alonso G.H",
@@ -36,6 +36,7 @@
         "eslint-config-prettier": "^10.0.1",
         "eslint-plugin-react-hooks": "^5.0.0",
         "eslint-plugin-react-refresh": "^0.4.16",
+        "git-commit-msg-linter": "^5.0.8",
         "globals": "^15.14.0",
         "husky": "^9.1.7",
         "lint-staged": "^15.4.1",
