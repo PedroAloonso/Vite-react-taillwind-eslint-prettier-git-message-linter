@@ -7,12 +7,16 @@
         "email": "pedro.alonsopa@hotmail.com",
         "url": "https://github.com/pedroaloonso"
     },
+    "bugs": {
+        "email": "pedro.alonsopa@hotmail.com",
+        "url": "https://github.com/PedroAloonso/react-taillwind-sass-eslint-prettier/issues"
+    },
     "license": "MIT",
     "type": "module",
     "scripts": {
         "dev": "vite",
         "build": "tsc -b && vite build",
-        "lint": "eslint .",
+        "lint": "eslint --config ./config/eslint.config.js",
         "preview": "vite preview"
     },
     "dependencies": {
