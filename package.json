@@ -1,7 +1,7 @@
 {
-    "name": "react-taillwind-sass-eslint-husk-prettier",
+    "name": "react-tailwind-sass-eslint-husk-prettier",
     "version": "0.0.0",
-    "description": "Vite template with React 19, Typescript, TaillWind, SASS, Prettier, Prettier for TaillWind Eslint, Git Commit Message Linter",
+    "description": "Vite template with React 19, Typescript, TailWind, SASS, Prettier, Prettier for TaillWind Eslint, Git Commit Message Linter",
     "author": {
         "name": "Pedro Alonso G.H",
         "email": "pedro.alonsopa@hotmail.com",
@@ -16,7 +16,7 @@
     "scripts": {
         "dev": "vite",
         "build": "tsc -b && vite build",
-        "lint": "eslint --config ./config/eslint.config.js",
+        "lint": "eslint",
         "preview": "vite preview"
     },
     "dependencies": {
@@ -28,10 +28,13 @@
         "@types/react": "^18.3.18",
         "@types/react-dom": "^18.3.5",
         "@vitejs/plugin-react": "^4.3.4",
+        "autoprefixer": "^10.4.20",
         "eslint": "^9.17.0",
         "eslint-plugin-react-hooks": "^5.0.0",
         "eslint-plugin-react-refresh": "^0.4.16",
         "globals": "^15.14.0",
+        "postcss": "^8.5.1",
+        "tailwindcss": "^3.4.17",
         "typescript": "~5.6.2",
         "typescript-eslint": "^8.18.2",
         "vite": "^6.0.5"
